@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="741a207e-582d-41da-9b4a-be62b903aaea" name="Default" comment="" />
+    <list default="true" id="741a207e-582d-41da-9b4a-be62b903aaea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FitHashSet.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/FitSet.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/FitSetTest.java" afterPath="$PROJECT_DIR$/src/test/java/FitHashSetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="collections.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +25,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/FitSetTest.java" line="23" class="FitSetTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,37 +65,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FitSet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FitSet.java">
+      <file leaf-file-name="FitHashSetTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FitHashSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="35" column="39" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractSet.class" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/util/AbstractSet.class">
+      <file leaf-file-name="FitHashSet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FitHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="62" selection-start="196" selection-end="196" vertical-scroll-proportion="0.12886597">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCollection.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/util/AbstractCollection.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FitSetTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FitSetTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="9" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+            <state line="22" column="56" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5670103">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +99,7 @@
       <file leaf-file-name="Fit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Fit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="10" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="1" column="23" selection-start="64" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +108,7 @@
       <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="7" selection-start="653" selection-end="696" vertical-scroll-proportion="0.0">
+            <state line="36" column="57" selection-start="897" selection-end="923" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Product.java" />
         <option value="$PROJECT_DIR$/src/test/java/FitSetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FitSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FitHashSet.java" />
       </list>
     </option>
   </component>
@@ -181,10 +156,13 @@
           <State>
             <id>Inspections</id>
           </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Declaration Redundancy</id>
+            <id>Serialization issues</id>
           </State>
         </selected-state>
       </profile-state>
@@ -329,13 +307,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FitSetTest.testAddAll">
-    <configuration default="false" name="FitSetTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="FitHashSetTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="collections" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FitSetTest" />
+      <option name="MAIN_CLASS_NAME" value="FitHashSetTest" />
       <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -358,13 +336,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FitSetTest.testAddAll" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="FitHashSetTest.testAddAll" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="collections" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FitSetTest" />
+      <option name="MAIN_CLASS_NAME" value="FitHashSetTest" />
       <option name="METHOD_NAME" value="testAddAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -606,40 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/alt-rt.jar!/java/util/HashMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="966" selection-end="966" vertical-scroll-proportion="-3.7646048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="653" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/util/Collection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="12" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5618557">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FitSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,17 +598,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FitSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/util/AbstractSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="62" selection-start="196" selection-end="196" vertical-scroll-proportion="0.12886597">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/alt-rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="9" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="64" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="57" selection-start="897" selection-end="923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/lang/Cloneable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="0.12886597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar!/java/io/Serializable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="149" selection-end="149" vertical-scroll-proportion="0.12886597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FitHashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="39" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FitHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="56" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5670103">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

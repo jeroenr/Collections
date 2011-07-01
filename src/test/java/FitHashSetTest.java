@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
-public class FitSetTest {
+public class FitHashSetTest {
     @Test
     public void testAdd() throws Exception {
         Product product1 = new Product("a", 200);
@@ -15,7 +15,7 @@ public class FitSetTest {
         Product product3 = new Product("b", 300);
         Product product4 = new Product("a", 50);
 
-        Set<Product> cheapestProducts = new FitSet<Product>();
+        Set<Product> cheapestProducts = new FitHashSet<Product>();
         cheapestProducts.add(product1);
         cheapestProducts.add(product2);
         cheapestProducts.add(product3);
@@ -31,8 +31,8 @@ public class FitSetTest {
     public void testAddAll() throws Exception {
         final Random random = new Random();
 
-        Set<Product> cheapestProducts = new FitSet<Product>();
-        for (int i = 0; i < 500000; i++) {
+        Set<Product> cheapestProducts = new FitHashSet<Product>();
+        for (int i = 0; i < 10000000; i++) {
             cheapestProducts.add(new Product(String.valueOf(random.nextInt()), random.nextInt()));
         }
     }
