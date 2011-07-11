@@ -28,8 +28,8 @@ public class ListMergeUtil {
         return merged;
     }
 
-    static abstract class FoundMatchCallback<T extends List<? super E>, E> {
-        abstract T handleFoundMatch(T result, E current, E mutation);
+    public static abstract class FoundMatchCallback<T extends List<? super E>, E> {
+        public abstract T handleFoundMatch(T result, E current, E mutation);
     }
 
     private ListMergeUtil() throws InstantiationException {

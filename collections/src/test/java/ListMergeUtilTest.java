@@ -17,7 +17,7 @@ public class ListMergeUtilTest {
         final List<String> resultList = new ArrayList<String>();
         ListMergeUtil.merge(resultList, list1, list2, new ListMergeUtil.FoundMatchCallback<List<String>, String>() {
             @Override
-            List<String> handleFoundMatch(List<String> result, String current, String mutation) {
+            public List<String> handleFoundMatch(List<String> result, String current, String mutation) {
                 result.add(current + mutation);
                 return result;
             }
