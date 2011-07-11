@@ -32,7 +32,7 @@ public class FitHashSetTest {
         final Random random = new Random();
 
         Set<Product> cheapestProducts = new FitHashSet<Product>();
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 5000000; i++) {
             cheapestProducts.add(new Product(String.valueOf(random.nextInt()), random.nextInt()));
         }
     }
